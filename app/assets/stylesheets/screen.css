@@ -963,7 +963,7 @@ body:not(.post-template) .post-title {
     border: #EBF2F6 1px solid;
     text-align: center;
     line-height: 2.4rem;
-    border-radius: 50px;
+    border-radius: 0px;
     background: #FFF;
     transition: box-shadow 0.5s;
 }
