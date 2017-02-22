@@ -19,3 +19,14 @@
 
 # Ignore Byebug command history file.
 .byebug_history
+
+development:
+  secret_key_base: f3cbcad66ff04eaf54ddcf0eeee45b40bef54ec6d2667dde06a2db850392e8345ede6df674914e6aaaca71de7427ee8480aeb99a6fcb3de5c7aa3f4f9218a28f
+
+test:
+  secret_key_base: ad6da227857b5f6455f0455d0dc8a591b24e89bb3d176563a6f9b06babc3fb9e7e071be7321a58aca333bae25eee122887759fbf00c1604cc8a037cb2cbb2128
+
+# Do not keep production secrets in the repository,
+# instead read values from the environment.
+production:
+  secret_key_base: <%= ENV["SECRET_KEY_BASE"] %>
