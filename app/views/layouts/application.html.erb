@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width, initial scale=1">
+    <%= favicon_link_tag 'logo.png' %>
+
+
     <title>Home Savi Knowledge Base</title>
     <meta name="description" content="Home Savi replaces the need for a buyer’s agent by giving you the tools to offer, close and save on your home purchase." />
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-    <%= favicon_link_tag 'logo.png' %>
 
     <link rel="canonical" href="https://blog.homesavi.com/" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
@@ -20,25 +25,7 @@
 
     <link rel="icon" href="//d1l2ndm30xh03v.cloudfront.net/assets/logo-188fd59e60fe1a9026406a834a77b303.png" type="image/x-icon">
     <link rel="stylesheet" media="all" href="https://www.homesavi.com/a/application.css">
-
-    <style type="text/css">
-      body {
-        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKBAMAAAB%2FHNKOAAAAJ1BMVEXi4uLj4%2BPk5OTl5eXm5ubr6%2Bvs7Ozt7e3u7u7v7%2B%2Fw8PDy8vLz8%2FO7k0s5AAAAQElEQVQIHWNQPzY5J4qhoKec4yjDCY7dDT0MOY0ZO8QYpm%2FzrC5mMN8%2BJbuSIbG7TeIYVDamofwEO8PSY5Y5RQDD0Be219lMwQAAAABJRU5ErkJggg%3D%3D) top left;
-      }
-
-      @media
-        only screen and (-webkit-min-device-pixel-ratio: 2),
-        only screen and (   min--moz-device-pixel-ratio: 2),
-        only screen and (     -o-min-device-pixel-ratio: 2/1),
-        only screen and (        min-device-pixel-ratio: 2),
-        only screen and (                min-resolution: 192dpi),
-        only screen and (                min-resolution: 2dppx) {
-       body {
-         background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUAQMAAAC3R49OAAAABlBMVEXl5eXx8fGRYMHKAAAANUlEQVQIHWO0nbSQUW7lS8b%2BK7mMx1%2FpMz4W%2FcH4kbuEsSItiHHP5oWM9yI9Gd%2F7tDISqQ4APIkhdZXaJKQAAAAASUVORK5CYII%3D) top left;
-        background-size: 10px;
-            }
-        }
-  </style>
+    <link rel="stylesheet" media
 
     <link rel="canonical" href="https://blog.homesavi.com/" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
@@ -86,6 +73,7 @@
 
     <meta name="generator" content="Ghost 0.11" />
     <link rel="alternate" type="application/rss+xml" title="Home Savi Blog" href="https://blog.homesavi.com/rss/" />
+
 
   </head>
 

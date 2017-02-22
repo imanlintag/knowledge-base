@@ -44,7 +44,7 @@ body { margin: 0; }
 a { background: transparent; }
 a:focus { outline: thin dotted; }
 a:active, a:hover { outline: 0; }
-h1 { font-size: 2em; margin: 0.67em 0; }
+h1 { font-size: 2em; margin: 0.67em 0; text-align: center; }
 abbr[title] { border-bottom: 1px dotted; }
 b, strong { font-weight: 700; }
 dfn { font-style: italic; }
@@ -101,7 +101,6 @@ input::-moz-focus-inner { border: 0; padding: 0; }
 textarea { overflow: auto; vertical-align: top; }
 table { border-collapse: collapse; border-spacing: 0; }
 
-
 /* ==========================================================================
    2. General - Setting up some base styles
    ========================================================================== */
@@ -143,12 +142,18 @@ h4, h5, h6 {
     line-height: 1.15em;
     margin: 0 0 0.4em 0;
     font-family: "Open Sans", sans-serif;
+    text-align: center;
 }
 
 h1 {
     font-size: 5rem;
     letter-spacing: -2px;
     text-indent: -3px;
+    text-align: center;
+    padding: 0;
+    width: 35;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h2 {
@@ -441,7 +446,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .main-header .inner {
-    width: 80%;
+    width: 80%; 
 }
 
 .main-nav {
@@ -1336,6 +1341,11 @@ body:not(.post-template) .post-title {
     h1 {
         font-size: 4.5rem;
         text-indent: -2px;
+        text-align: center;
+        padding: 0;
+        width: 35;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     h2 {
@@ -1528,11 +1538,17 @@ body:not(.post-template) .post-title {
     h1, h2, h3,
     h4, h5, h6 {
         margin: 0 0 0.3em 0;
+        text-align: center;
     }
 
     h1 {
         font-size: 2.8rem;
         letter-spacing: -1px;
+        text-align: center;    
+        padding: 0;
+        width: 35;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     h2 {
